@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Minimal;
+    src: url(../assets/minimal.otf);
+}
+
+body {
+	background-color: black;
+    background-size: cover;
+    transition: background-color 1s ease-in-out;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#snd-row {
+    margin-top: 10%;
+    transition: display 2s ease-in-out;
+}
+
+@media only screen
+and (max-width: 699px) and (min-width: 300px) {
+    #middle > h1 {
+        font-size: 40px!important;
+        font-family: Minimal;
+    }
+
+    .special-btn {
+        font-size: 30px!important;
+        width: 80% !important;
+        height: 80px !important;
+    }
+}
+
+@media only screen
+and (max-width: 1400px) and (min-width: 700px) {
+    #middle > h1 {
+        font-size: 50px!important;
+        font-family: Minimal;
+    }
+
+    .special-btn {
+        font-size: 30px!important;
+        width: 80% !important;
+        height: 80px !important;
+    }
+}
+
+#middle {
+     height: 100vh;
+/*     border: 5px solid rgba(70, 24, 70, 0.4); */
+/*     border-radius: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 1s ease-in-out;
+    transition-property: color,background-color,height;
+}
+
+#middle > h1 {
+    font-size: 80px;
+    font-family: Minimal;
+}
+
+.special-btn {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Minimal;
+    font-size: 30px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 1s ease-in-out;
+    transition-property: color, border, box-shadow;
+    width: 30%;
+    height: 50px;
+}
+
+.special-btn:hover {
+    box-shadow: 0 0 16px 8px rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.ref-icons {
+    width: 50%;
+    margin: 0 auto;
+    transition: all 1s ease-in-out;
+    transition-property: width;
+}
+
+.ref-icons:hover {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.span_life {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.span_life:hover {
+    font-family: "Helvetica Neue";
+    font-size: 48px;
+}
