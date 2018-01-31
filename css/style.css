@@ -76,6 +76,8 @@ and (max-width: 1400px) and (min-width: 700px) {
     transition-property: color, border, box-shadow;
     width: 30%;
     height: 50px;
+    animation-duration: 5s!important;
+    animation-iteration-count: infinite!important;
 }
 
 .special-btn:hover {
