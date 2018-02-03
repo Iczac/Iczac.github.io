@@ -3,6 +3,11 @@
     src: url(../assets/minimal.otf);
 }
 
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
 body {
 	background-color: black;
     background-size: cover;
@@ -72,7 +77,7 @@ and (max-width: 1400px) and (min-width: 700px) {
     font-family: Minimal;
     font-size: 30px;
     box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
     transition-property: color, border, box-shadow;
     width: 30%;
     height: 50px;
